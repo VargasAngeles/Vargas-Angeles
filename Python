@@ -1,0 +1,8 @@
+num=int(input("Ingrese un número: "))
+suma=0
+while num>=0:
+	suma=suma+num
+	num=int(input("Ingrese un número: "))
+	if num<0:
+		print("No se puede ingresar un numero negativo")
+print(str(suma))
